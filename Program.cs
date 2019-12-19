@@ -51,20 +51,46 @@ namespace Ref_Returns_and_Ref_Locals
          }
          */
         //Ref Local in C#
+        /*  static void Main(string[] args)
+          {
+              int no1 = 1;
+              ref int no2 = ref no1;
+              no2 = 1321312;
+              ref int no3 = ref no2;
+              no3 = 3;
+              Console.WriteLine($"local variable {nameof(no2)} after the change: {no2}");
+              Console.WriteLine("Press any key to Exit.");
+              Console.ReadLine();
+          }
+          */
+        //Ref Returns in C#
+        public ref int GetFirstOddNumber(int[] numbers)
+        {
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] % 2 == 1)
+                {
+                    return ref numbers[i]; //returning as reference  
+                }
+            }
+            throw new Exception("odd number not found");
+        }
         static void Main(string[] args)
         {
-            int no1 = 1;
-            ref int no2 = ref no1;
-            no2 = 1321312;
-            ref int no3 = ref no2;
-            no3 = 3;
-            Console.WriteLine($"local variable {nameof(no2)} after the change: {no2}");
-            Console.WriteLine("Press any key to Exit.");
-            Console.ReadLine();
+            Program p = new Program();
+            int[] x = { 2, 4, 62, 54, 33, 55, 66, 71, 92 };
+            ref int oddNum = ref p.GetFirstOddNumber(x); //storing as reference  
+            Console.WriteLine($"\t\t{oddNum}");
+            oddNum = 35;
+            for (int i = 0; i < x.Length; i++)
+            {
+                Console.Write($"{x[i]}\t");
+            }
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exist.");
+            Console.ReadKey();
         }
-
-
     }
-
+    
 }
  
