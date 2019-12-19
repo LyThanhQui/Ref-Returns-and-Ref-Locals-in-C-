@@ -1,0 +1,11 @@
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\bin\Debug\netcoreapp2.1\Ref Returns and Ref Locals.deps.json
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\bin\Debug\netcoreapp2.1\Ref Returns and Ref Locals.runtimeconfig.json
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\bin\Debug\netcoreapp2.1\Ref Returns and Ref Locals.runtimeconfig.dev.json
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\bin\Debug\netcoreapp2.1\Ref Returns and Ref Locals.dll
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\bin\Debug\netcoreapp2.1\Ref Returns and Ref Locals.pdb
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\obj\Debug\netcoreapp2.1\Ref Returns and Ref Locals.csprojAssemblyReference.cache
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\obj\Debug\netcoreapp2.1\Ref Returns and Ref Locals.csproj.CoreCompileInputs.cache
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\obj\Debug\netcoreapp2.1\Ref Returns and Ref Locals.AssemblyInfoInputs.cache
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\obj\Debug\netcoreapp2.1\Ref Returns and Ref Locals.AssemblyInfo.cs
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\obj\Debug\netcoreapp2.1\Ref Returns and Ref Locals.dll
+H:\demo dotnettutorials\3. C# 7.X new Features\Ref Returns and Ref Locals\Ref Returns and Ref Locals\obj\Debug\netcoreapp2.1\Ref Returns and Ref Locals.pdb
