@@ -19,38 +19,52 @@ namespace Ref_Returns_and_Ref_Locals
 
          }*/
 
-//Passing by Reference in C#
-/*  static void Main(string[] args)
-  {
-      int no = 1;
-      PassByReference(ref no);
-      Console.WriteLine($"After the invocation of {nameof(PassByReference)} method, {nameof(no)} = {no}");
-      Console.WriteLine("Press any key to Exit.");
-      Console.ReadLine();
-  }
-  static void PassByReference(ref int x)
-  {
-      x = 2;
-  }
-  */
-//Out Variable in C#:
-/* static void Main(string[] args)
- {
-     // int no;// does not need to be initialized value for no variable
-     //OUT(out no);
-     //in C# 7.0
-     OUT(out int no);
-     Console.WriteLine($"After the invocation of {nameof(OUT)} method, {nameof(no)} = {no}");
-     Console.WriteLine("Press any key to Exit.");
-     Console.ReadLine();
- }
- static void OUT(out int x)
- {
-     x = 4 * 2;
+        //Passing by Reference in C#
+        /*  static void Main(string[] args)
+          {
+              int no = 1;
+              PassByReference(ref no);
+              Console.WriteLine($"After the invocation of {nameof(PassByReference)} method, {nameof(no)} = {no}");
+              Console.WriteLine("Press any key to Exit.");
+              Console.ReadLine();
+          }
+          static void PassByReference(ref int x)
+          {
+              x = 2;
+          }
+          */
+        //Out Variable in C#:
+        /* static void Main(string[] args)
+         {
+             // int no;// does not need to be initialized value for no variable
+             //OUT(out no);
+             //in C# 7.0
+             OUT(out int no);
+             Console.WriteLine($"After the invocation of {nameof(OUT)} method, {nameof(no)} = {no}");
+             Console.WriteLine("Press any key to Exit.");
+             Console.ReadLine();
+         }
+         static void OUT(out int x)
+         {
+             x = 4 * 2;
 
- }
- //Ref Local in C#
-}
+         }
+         */
+        //Ref Local in C#
+        static void Main(string[] args)
+        {
+            int no1 = 1;
+            ref int no2 = ref no1;
+            no2 = 1321312;
+            ref int no3 = ref no2;
+            no3 = 3;
+            Console.WriteLine($"local variable {nameof(no2)} after the change: {no2}");
+            Console.WriteLine("Press any key to Exit.");
+            Console.ReadLine();
+        }
+
+
+    }
 
 }
  
